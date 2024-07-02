@@ -14,9 +14,9 @@ export default function Navbar() {
         {/* Top */}
         <div className='content'>
           {/* Logo */}
-            <div className='logo'>
-              <img src={logo}/>
-            </div>
+          <div className='logo'>
+            <img src={logo} />
+          </div>
           {/* Link */}
           <div className='link flex justify-between w-36'>
             <a href='#' className="active">Chỗ ở</a>
@@ -34,15 +34,15 @@ export default function Navbar() {
         </div>
 
         {/* Bottom */}
-        {/* <div className='search'>
-          <button>Địa điểm</button>
-          <button>Nhận phòng</button>
-          <button>Trả phòng</button>
-          <button>Khách</button>
-          <div>
-
+        <div className='search'>
+          <button className='diadiem'>Địa điểm</button>
+          <button className='nhanphong'>Nhận phòng</button>
+          <button className='traphong'>Trả phòng</button>
+          <button className='themkhach'>Khách</button>
+          <div className='iconsearch rounded-full '>
+            <IoSearchOutline className='icon text-white' />
           </div>
-        </div> */}
+        </div>
       </div>
     </div>
   )
